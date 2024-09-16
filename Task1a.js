@@ -22,9 +22,9 @@ const todoList = [];
  * 
  */
 function addAndPrintTodos() {
-    todoList.unshift('Have dinner with my suite');
-    todoList.unshift('Pick out my classes');
-    todoList.unshift('Apply to y/cs!');
+    todoList.unshift('3. Have dinner with my suite');
+    todoList.unshift('2. Pick out my classes');
+    todoList.unshift('1. Apply to y/cs!');
     todoList.forEach(function(entry) {
         console.log(entry);
       });
