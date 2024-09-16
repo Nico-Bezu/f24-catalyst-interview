@@ -22,7 +22,12 @@ const todoList = [];
  * 
  */
 function addAndPrintTodos() {
-    // YOUR CODE HERE
+    todoList.unshift('Have dinner with my suite');
+    todoList.unshift('Pick out my classes');
+    todoList.unshift('Apply to y/cs!');
+    todoList.forEach(function(entry) {
+        console.log(entry);
+      });
 }
 
 /**
