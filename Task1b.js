@@ -34,7 +34,9 @@ function printtodo() {
  */
 function mainTask1b() {
     // YOUR CODE HERE (simply call the functions you implemented above)
-    addtodo();
+    addtodo("drake");
+    addtodo("<");
+    addtodo("Kendrick");
     printtodo();
 }
 
